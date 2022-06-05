@@ -7,11 +7,11 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 # ============================ #
 
-B_TOKEN = os.getenv("5489481726:AAEZQCMDxXQJEpPDpXsaf7bAJm9qkp9oCQM") 
-API_ID = os.getenv("15781409") # Kullanıcı'nın Apı Id'si
-API_HASH = os.getenv("0499f7f54f3fbb56b43acb6edf2d9696") 
-OWNER_ID = os.getenv("974246367").split()
-OWNER_ID.append(974246367)
+B_TOKEN ="5489481726:AAEZQCMDxXQJEpPDpXsaf7bAJm9qkp9oCQM"
+API_ID ="15781409"
+API_HASH ="0499f7f54f3fbb56b43acb6edf2d9696"
+OWNER_ID ="974246367"
+OWNER_ID="974246367"
 
 MOD = None
 
